@@ -1205,3 +1205,4 @@
 2020-08-20 12:22:46,896 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2020-08-20 12:22:46,900 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-08-20 12:22:46,900 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Pricilla\Desktop\osworks_api\workspace-spring-tool-suite-4-4.7.1.RELEASE\osworks-api\src\test\resources
+2020-08-21 17:56:05,273 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
