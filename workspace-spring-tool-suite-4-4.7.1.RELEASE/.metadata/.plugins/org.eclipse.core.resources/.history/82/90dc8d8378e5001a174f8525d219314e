@@ -119,13 +119,9 @@ public class OrdemServico {
 		return StatusOrdemServico.ABERTA.equals(getStatus());
 	}
 	
-	public boolean naoPodeSerFinalizada() {
-		return !podeSerFinalizada();
-	}
-	
 	public void finalizar() {
 		
-		if(naoPodeSerFinalizada()) {
+		if(!podeSerFinalizada()) {
 			throw new NegocioException("Ordem de serviço não pode ser finalizada");
 		}
 		

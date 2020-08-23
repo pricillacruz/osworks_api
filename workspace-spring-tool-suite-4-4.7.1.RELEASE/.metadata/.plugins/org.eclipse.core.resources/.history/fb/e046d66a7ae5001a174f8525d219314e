@@ -68,7 +68,7 @@ public class OrdemServicoController {
 	
 	@PutMapping("/{ordemServicoId}/finalizacao")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	public void finalizar(@PathVariable Long ordemServicoId) {
+	public void finalizar(Long ordemServicoId) {
 		gestaoOrdemServicoService.finalizar(ordemServicoId);
 	}
 	
